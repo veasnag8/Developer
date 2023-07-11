@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Hooter */
+.contect-service{
+    height: 40px;
+    width: 100%;
+    background-color:rgb(7 105 218);
+}
+.contect-service .box1{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.contect-service .box2{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.contect-service .box2 ,.box3 ,.box4 p{
+   font-size: 15px;
+   color: white;
+   /* margin-top: 12px; */
+   transform: translateY(10px);
+}
+.contect-service .box3{
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+.contect-service .box4{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+/* Logo */
+.logo{
+    height: 80px;
+    width: 100%;
+    background-color:#0573f0;
+    float: left;
+    
+}
+.logo .box1-logo{
+    width: 20%;
+    height: 100%;
+    float: left;
+    
+}
+.box2-logo{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.box2-logo img{
+    margin-top: 25px;
+}
+.box3-logo{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.box3-logo input{
+    height: 50%;
+    width: 200px;
+    margin-top: 18px;
+}
+.box3-logo button{
+    height: 50%;
+    width: 50px;
+    color: white;
+    background-color: #27323f;
+    cursor: pointer;
+}
+/* Menu */
+.menu{
+    height: 50px;
+    width: 100%;
+    background-color:#0573f0;
+    float: left;
+    border-top: 0.5px solid rgb(134, 131, 131);
+}
+.box-zero{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.menu .menu-box{
+    width: 80%;
+    height: 100%;
+    float: left;
+    transform: translateX(-19px);
+}
+.menu .menu-box ul{
+    list-style: none;
+}
+.menu .menu-box ul li a{
+    
+    text-decoration: none;
+    padding: 20px 50px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Times, serif
+}
+.menu .menu-box ul li{
+    margin-top: 11px;
+}
